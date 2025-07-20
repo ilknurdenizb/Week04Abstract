@@ -10,7 +10,7 @@ namespace Week04AbstractMain
     {
         public override void Title() // Implements the abstract method Title from the Worker class
         {
-            Console.WriteLine("Software Developer"); // Displays the title of the worker
+            Console.WriteLine("I am working as a software developer."); // Displays the title of the worker
         }
         public SoftwareDeveloper(string name, string surname, string department) // Constructor to initialize the properties of the SoftwareDeveloper class
         {

@@ -9,8 +9,8 @@ namespace Week04AbstractMain
     internal class ProjectManager : Worker // Inherits from the abstract class Worker
     {
         public override void Title() // Implements the abstract method Title from the Worker class
-        { 
-            Console.WriteLine("Project Manager"); // Displays the title of the worker
+        {
+            Console.WriteLine("I am working as a project manager."); // Displays the title of the worker
         }
         public ProjectManager(string name, string surname, string department) // Constructor to initialize the properties of the ProjectManager class
         {

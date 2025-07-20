@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace Week04AbstractMain
 {
-    internal class SalesRepresentative : Worker
+    internal class SalesRepresentative : Worker // Inherits from the abstract class Worker
     {
-        public override void Title()
+        public override void Title() // Implements the abstract method Title from the Worker class
         {
-            Console.WriteLine("Sales Representative");
+            Console.WriteLine("I am working as a sales representative."); // Displays the title of the worker
         }
-        public SalesRepresentative(string name, string surname, string department)
+        public SalesRepresentative(string name, string surname, string department) // Constructor to initialize the properties of the SalesRepresentative class
         {
-            Name = name;
-            Surname = surname;
-            Department = department;
+            Name = name; // Sets the Name property
+            Surname = surname; // Sets the Surname property
+            Department = department; // Sets the Department property
         }
-        public SalesRepresentative()
+        public SalesRepresentative() // Default constructor for the SalesRepresentative class
         {
         }
     }
