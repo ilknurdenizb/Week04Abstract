@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week04AbstractMain
+{
+    internal class ProjectManager : Worker // Inherits from the abstract class Worker
+    {
+        public override void Title() // Implements the abstract method Title from the Worker class
+        { 
+            Console.WriteLine("Project Manager"); // Displays the title of the worker
+        }
+        public ProjectManager(string name, string surname, string department) // Constructor to initialize the properties of the ProjectManager class
+        {
+            Name = name;
+            Surname = surname;
+            Department = department;
+        }
+        public ProjectManager() // Default constructor for the ProjectManager class
+        {
+        }
+    }
+    
+    }
+
